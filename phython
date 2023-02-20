@@ -1,0 +1,321 @@
+{
+ "cells": [
+  {
+   "cell_type": "raw",
+   "id": "56871170-c043-4e9f-af69-877945b086d1",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "548cde9c-a937-4aa6-abdf-cdaff4102e10",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your marks 10\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "you will be thae part of A3 batch \n"
+     ]
+    }
+   ],
+   "source": [
+    "marks=int(input(\"enter your marks\"))\n",
+    "if marks >= 80:\n",
+    "    \n",
+    "    print (\"you will be a part of A0 batch\")\n",
+    "elif marks >= 60 and marks< 80:\n",
+    "    print(\"you will be a part of A1 batch\")\n",
+    "else:\n",
+    "    print(\"you will be thae part of A3 batch \")\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "c817c8fb-b005-497f-9afa-7bfa02035399",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l=[1,2,3,3,4,5,6,7,8]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "737cb8f0-15c2-4b70-9740-3c0ed2c70a48",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l[0] +1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "82d5b58d-a9fc-4282-a37c-36374d1c4e24",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1=[]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "7f55d0f3-b72d-4bda-9c50-8cad95a86aa1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1.append(l[0] +1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "55efc28f-5885-44bb-a063-4130783a349b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[2]"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "1a0f0f1b-9ec6-4266-b18f-ae979ab9adb0",
+   "metadata": {
+    "scrolled": true,
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "l =[1,2,3,4,5,6,6,7,8,]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "76f5e13e-575e-4486-9856-d05ef41c3dc4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "7\n",
+      "8\n",
+      "9\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "[2, 3, 4, 5, 6, 7, 7, 8, 9]"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1=[]\n",
+    "for i in l :\n",
+    "    print(i+1)\n",
+    "    l1.append(i+1)\n",
+    "l1    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "cf6a87b0-43c8-4ece-b8d0-b1626ce9af9a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l=[\"sudh\",\"kumar\",\"sudeep\",\"mg\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "90c2e6f5-389d-4a70-a170-30c11a0db8c2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "sudh\n",
+      "kumar\n",
+      "sudeep\n",
+      "mg\n"
+     ]
+    }
+   ],
+   "source": [
+    "l1 =[]\n",
+    "for i in l:\n",
+    "    print(i)\n",
+    "    l1.append(i.upper())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "25b19825-adb6-482c-82a9-410a063caebf",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['SUDH', 'KUMAR', 'SUDEEP', 'MG']"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\n",
+    "l1\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "cf7070c7-e10f-476c-a8dc-e890b617b2ff",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l =[1,2,3,4,4,\"sudh\",\"kumar\",65.87,\"abc\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "b0543c15-e593-4057-a01d-50f88b933bb7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1_num =[]\n",
+    "l2_str =[]\n",
+    "for i in l :\n",
+    "    if type(i) == int or type(i) == float :\n",
+    "        l1_num.append(i)\n",
+    "    else :  \n",
+    "        l2_str.append(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "b6289bbe-f9a0-4c55-8ea9-d48c0579b205",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 4, 65.87]"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1_num"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "1c502313-197a-4416-b48c-02f3466a9e1e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['sudh', 'kumar', 'abc']"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l2_str"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "158e482f-2971-4f0e-bc26-e09bcc3db49d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
